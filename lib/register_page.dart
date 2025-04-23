@@ -11,7 +11,6 @@ class RegisterPage extends StatefulWidget {
 class _RegisterPageState extends State<RegisterPage> {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
-
   @override
   void initState() {
     super.initState();
@@ -19,8 +18,10 @@ class _RegisterPageState extends State<RegisterPage> {
 
   @override
   Widget build(BuildContext context) {
+    final _formKey = GlobalKey<FormState>();
     return Scaffold(
       body: Form(
+        key: _formKey,
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
@@ -49,7 +50,11 @@ class _RegisterPageState extends State<RegisterPage> {
                   return null;
                 },
               ),
-              ElevatedButton(onPressed: () {}, child: const Text('Register')),
+              ElevatedButton(onPressed: () {
+                if (_formKey.currentState!.validate()){
+                  Navigator.pop(context);
+                }
+              }, child: const Text('Register')),
               TextButton(
                 onPressed: () {
                   Navigator.pop(context);
