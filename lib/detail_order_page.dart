@@ -6,8 +6,15 @@ class DetailOrderPage extends StatelessWidget {
   final String jumlahMakanan;
   final String jumlahMinuman;
   final int totalHarga;
-  
-  const DetailOrderPage({super.key});
+
+  const DetailOrderPage({
+    super.key,
+    required this.makanan,
+    required this.minuman,
+    required this.jumlahMakanan,
+    required this.jumlahMinuman,
+    required this.totalHarga,
+  });
 
   @override
   Widget build(BuildContext context) {
