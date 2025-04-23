@@ -10,7 +10,7 @@
 
 ![image](https://github.com/user-attachments/assets/1b39c2dc-503a-4453-a7d1-709b7dffa90b)
 
-![image](https://github.com/user-attachments/assets/f2a83079-f227-48ef-b763-030080952deb)
+![image](https://github.com/user-attachments/assets/1247001b-d5a8-4705-bcaf-986394bae236)
 
 <h1>Halaman Login</h1>
 
@@ -22,7 +22,7 @@
 
 ![image](https://github.com/user-attachments/assets/41b95f65-9878-4aa5-b5bc-10106a3850bc)
 
-![image](https://github.com/user-attachments/assets/0e274f3a-d1fa-41b1-8ddc-14dd1f435c22)
+![image](https://github.com/user-attachments/assets/b7616e33-cccc-4d90-b964-ed4fb93d5738)
 
 <h1>Halaman Home</h1>
 
