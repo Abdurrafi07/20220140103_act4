@@ -1,3 +1,4 @@
+import 'package:activity_4/home_page.dart';
 import 'package:flutter/material.dart';
 
 class DetailOrderPage extends StatelessWidget {
@@ -32,6 +33,17 @@ class DetailOrderPage extends StatelessWidget {
             Text('Total Price: $totalHarga'),
 
             const SizedBox(height: 20),
+
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushAndRemoveUntil(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomePage()),
+                  (route) => false,
+                );
+              },
+              child: Text('Finish Order'),
+            ),
           ],
         ),
       ),
