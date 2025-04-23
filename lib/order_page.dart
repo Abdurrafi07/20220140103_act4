@@ -1,3 +1,4 @@
+import 'package:activity_4/detail_order_page.dart';
 import 'package:flutter/material.dart';
 
 class OrderPage extends StatefulWidget {
@@ -84,7 +85,7 @@ class _OrderPageState extends State<OrderPage> {
                       jumlahMakanan: jumlahMakananController.text,
                       jumlahMinuman: jumlahMinumanController.text,
                       totalHarga: totalHarga,
-                    )))
+                    )));
                 }
               }, child: const Text('Order Now'))
           ],
