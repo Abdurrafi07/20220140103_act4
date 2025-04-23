@@ -24,6 +24,7 @@ class _RegisterPageState extends State<RegisterPage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            spacing: 8,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text('Register'),
