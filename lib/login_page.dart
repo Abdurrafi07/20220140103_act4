@@ -29,6 +29,7 @@ class _LoginPageState extends State<LoginPage> {
           padding: const EdgeInsets.all(16.0),
           child: Column(mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Text('Login'),
             TextFormField(
               controller: emailController,
               decoration: const InputDecoration(
