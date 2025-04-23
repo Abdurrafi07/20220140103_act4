@@ -26,14 +26,23 @@ class _OrderPageState extends State<OrderPage> {
   Widget build(BuildContext context) {
     final _formKey = GlobalKey<FormState>();
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Order Page'),
-      ),
+      appBar: AppBar(title: const Text('Order Page')),
       body: Form(
         key: _formKey,
         child: Column(
           spacing: 16,
-          children: [],
+          children: [
+            TextFormField(
+              controller: makananController,
+              decoration: const InputDecoration(labelText: 'Food Order'),
+              validator: (value) {
+                if (value == null || value.isEmpty) {
+                  return 'Please enter your food order';
+                }
+                return null;
+              },
+            ),
+          ],
         ),
       ),
     );
