@@ -24,7 +24,15 @@ class DetailOrderPage extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: [],
+          children: [
+            Text('Food Order: $makanan'),
+            Text('Drink Order: $minuman'),
+            Text('Food Quantity: $jumlahMakanan'),
+            Text('Drink Quantity: $jumlahMinuman'),
+            Text('Total Price: $totalHarga'),
+
+            const SizedBox(height: 20),
+          ],
         ),
       ),
     );
