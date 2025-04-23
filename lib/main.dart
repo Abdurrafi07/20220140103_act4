@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => const HomePage(),
         '/order': (context) => const OrderPage(),
       },
+      debugShowCheckedModeBanner: false,
     );
   }
 }
