@@ -34,6 +34,19 @@
 
 ![image](https://github.com/user-attachments/assets/247463bd-7f8f-4d83-b88f-b0fab4a072ae)
 
+<h1>Validasi Order</h1>
+
+![image](https://github.com/user-attachments/assets/085dd2e2-39f4-41c3-88d4-934026983d5b)
+
+![image](https://github.com/user-attachments/assets/0b713062-820e-48fb-b628-30bd18c8896c)
+
+![image](https://github.com/user-attachments/assets/53272794-903a-457a-b445-44fefa159599)
+
+![image](https://github.com/user-attachments/assets/70782576-6d04-489d-99cb-946f91f9dafd)
+
+![image](https://github.com/user-attachments/assets/e6e582ff-c06e-461b-8ec3-5d1fd4ecf51f)
+
+
 <h1>Halaman Detail Order</h1>
 
 ![image](https://github.com/user-attachments/assets/e4d90c92-5cce-4422-803d-f0de010fea28)
