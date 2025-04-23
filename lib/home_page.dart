@@ -14,6 +14,15 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('Home Page'),
       ),
+      body: Center(
+        child: Column(
+          spacing: 8,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Text('Selamat datang di Home Page!'),
+          ],
+        ),
+      ),
     );
   }
 }
