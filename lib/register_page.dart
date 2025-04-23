@@ -36,6 +36,17 @@ class _RegisterPageState extends State<RegisterPage> {
                   return null;
                 },
               ),
+              TextFormField(
+                controller: passwordController,
+                decoration: const InputDecoration(labelText: 'Password'),
+                obscureText: true,
+                validator: (value) {
+                  if (value == null || value.isEmpty) {
+                    return 'Please enter your password';
+                  }
+                  return null;
+                },
+              ),
             ],
           ),
         ),
